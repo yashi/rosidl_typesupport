@@ -1,0 +1,7 @@
+name: rosidl_typesupport
+build:
+  cmake: zephyr
+  kconfig: zephyr/Kconfig
+  depends:
+    - rcutils
+    - rosidl_typesupport_microxrcedds
